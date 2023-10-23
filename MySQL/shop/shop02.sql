@@ -42,7 +42,6 @@ WHERE num = 1;
 /* buy 테이블에 데이터를 삭제하면 
 amount, sale_amount 변경 트리거 생성 
 DELETE로 삭제 후 확인*/
-# 있는 데이터로 하는거라서 AFTER / BEFORE 는 
 
 DROP TRIGGER IF EXISTS delete_buy;
 DELIMITER $$

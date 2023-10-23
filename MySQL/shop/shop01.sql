@@ -1,4 +1,4 @@
-CREATE DATABASES shop;
+CREATE DATABASE shop;
 USE shop
 
 -- 제품 테이블 (product)
